@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- icon-link -->
+
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.esm.js"
+    ></script>
+
+    <!-- font-family  -->
+
+ <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
+    <!-- cdn link -->
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- root link  -->
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+                blue:"#458FF6",
+                grey:"#8F8A99",
+                black:"#1F1534",
+            },
+            fontWeight: {
+              sm: "300",
+              md: "400",
+              lg: "500",
+              xl: "600",
+              "2xl": "700",
+            },
+            fontSize: {
+              sm: "16px",
+              md: "17px",
+              lg: "18px",
+              xl: "19px",
+              "2xl": "21px",
+              "3xl": "22px",
+              "4xl": "24px",
+              "5xl": "26px",
+              "6xl": "36px",
+              "7xl": "48px",
+            },
+            fontFamily:{
+                mulish:["Mulish", "sans-serif"],
+            }
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <!-- section-1  -->
+
+    <section class="items-center min-h-screen justify-center bg-lightOrange relative poppins relative font-mulish">
+      <div class="container w-4/5 mx-auto">
+        <nav class="w-full flex items-center justify-between py-3">
+            <div class="flex gap-3">
+          <div class="px-3 py-1.05 bg-blue rounded-full font-2xl text-5xl font-mulish text-white">
+            R
+          </div>
+          <div class="font-2xl text-4xl">
+            Radial-Health
+          </div>
+        </div>
+          <ul
+            id="mobile_navbar"
+            class="flex gap-7 items-center xl:relative fixed max-xl:w-full max-xl:h-full max-xl:bg-orange z-10 max-xl:translate-x-full max-xl:bg-blue left-0 top-0 max-xl:flex-col max-xl:justify-center max-xl:items-center transition ease-out duration-250 max-xl:min-h-screen"
+          >
+            <li>
+              <a href="#" class="font-md text-lg text-grey hover:text-black">Home</a>
+            </li>
+            <li>
+              <a href="#" class="font-md text-lg text-grey hover:text-black">Find a doctor</a>
+            </li>
+            <li>
+              <a href="#" class="font-md text-lg text-grey hover:text-black">Apps</a>
+            </li>
+            <li>
+              <a href="#" class="font-md text-lg text-grey hover:text-black"
+                >Testimonials</a
+              >
+            </li>
+            <li class="font-md text-lg text-grey hover:text-black">
+              <a href="#">About us</a>
+            </li>
+          </ul>
+          <div class="relative z-20 flex gap-x-4 xl:hidden">
+            <div class="relative size-8 rounded-[100px]" id="toggle_button">
+              <div
+                class="absolute h-full w-full transition-all duration-300 show_nav font-bold text-[30px]"
+              >
+                <ion-icon name="menu-outline"></ion-icon>
+              </div>
+              <div
+                class="absolute h-full w-full font-bold text-[30px] transition-all duration-300 close_nav opacity-0"
+              >
+                <ion-icon name="close-outline"></ion-icon>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div class="flex flex-wrap">
+            <div class="w-full lg:w-6/12">
+            <div class=" font-2xl text-7xl max-sm:text-6xl text-black max-w-[427px] pt-44 max-xl:pt-0">
+                Virtual healthcare 
+                 for you
+            </div>
+            <div class=" font-sm text-2xl max-w-[493px] text-grey pt-6 pb-11">
+                Radial-Health provides progressive, and affordable 
+                healthcare, accessible on mobile and online 
+                for everyone
+            </div>
+            <button class="px-10 py-3 bg-blue rounded-full text-white font-2xl text-lg">
+                Consult today
+            </button>
+            </div>
+            <div class="w-full lg:w-6/12">
+                <img src="./assets/images/two boy are chating.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="absolute top-20">
+        <img src="./assets/images/dots section-1.png" alt="">
+    </div>
+        </section>
+
+     <!-- section-2 -->
+
+          <section class="items-center min-h-screen justify-center bg-lightOrange relative poppins relative font-mulish">
+         <div class="container w-4/5 mx-auto relative">
+          <div class="font-2xl text-6xl flex justify-center">
+            Our services
+          </div>
+          <div class=" flex justify-center pt-6">
+            <img src="./assets/images/svg/line.svg" alt="">
+          </div>
+          <p class=" font-sm text-lg pt-9 max-w-[952px] text-center flex justify-center mx-auto">
+            We provide to you the best choiches for you. Adjust it to your health needs and make sure your undergo treatment with our highly qualified doctors you can consult with us which type of service is suitable for your health
+          </p> 
+          <div class="flex flex-wrap">
+            <div class="w-full sm:w-6/12 lg:w-4/12">
+            <div class="max-w-[350px] pt-12 pb-11 pl-10 pr-11 shadow-lg rounded-[20px] mt-20 max-xl:mt-9 bg-white relative z-10">
+                <img src="./assets/images/svg/svg-1.svg" alt="">
+                <div class=" text-4xl font-2xl text-black pt-5">
+                    Search doctor
+                </div>
+                <p class=" font-sm ">
+                    Choose your doctor from thousands of specialist, general, and trusted hospitals
+                </p>
+            </div>
+           </div>
+               <div class="w-full sm:w-6/12 lg:w-4/12">
+            <div class="max-w-[350px] pt-12 pb-12 pl-10 pr-11 shadow-lg rounded-[20px] mt-20 max-xl:mt-9 bg-white relative z-10">
+                <img src="./assets/images/svg/svg-2.svg" alt="">
+                <div class=" text-4xl font-2xl text-black pt-5">
+                    Online pharmacy
+                </div>
+                <p class=" font-sm">
+                   Buy  your medicines with our mobile application with a simple delivery system
+                </p>
+            </div>
+           </div>
+               <div class="w-full sm:w-6/12 lg:w-4/12">
+            <div class="max-w-[350px] pt-12 pb-11 pl-10 pr-11 shadow-lg rounded-[20px] mt-20 max-xl:mt-9 bg-white relative z-10">
+                <img src="./assets/images/svg/svg-3.svg" alt="">
+                <div class=" text-4xl font-2xl text-black pt-5">
+                  Consultation
+                </div>
+                <p class=" font-sm ">
+                   Free consultation with our trusted doctors and get the best recomendations
+                </p>
+            </div>
+           </div>
+          </div>
+           <div class="flex flex-wrap">
+            <div class="w-full sm:w-6/12 lg:w-4/12">
+            <div class="max-w-[350px] pt-12 pb-11 pl-10 pr-11 shadow-lg rounded-[20px] mt-9 bg-white relative z-10">
+                <img src="./assets/images/svg/svg-4.svg" alt="">
+                <div class=" text-4xl font-2xl text-black pt-5">
+                    Details info
+                </div>
+                <p class=" font-sm ">
+                  Free consultation with our trusted doctors and get the best recomendations
+                </p>
+            </div>
+           </div>
+               <div class="w-full sm:w-6/12 lg:w-4/12">
+            <div class="max-w-[350px] pt-12 pb-16 pl-10 pr-11 shadow-lg rounded-[20px] mt-9 bg-white relative z-10">
+                <img src="./assets/images/svg/svg-5.svg" alt="">
+                <div class=" text-4xl font-2xl text-black pt-5">
+                    Emergency care
+                </div>
+                <p class=" font-sm ">
+                  You can get 24/7 urgent care for yourself or your children and your
+lovely family
+                </p>
+            </div>
+           </div>
+               <div class="w-full sm:w-6/12 lg:w-4/12">
+            <div class="max-w-[350px] pt-12 pb-16 pl-10 pr-11 shadow-lg rounded-[20px] mt-9 bg-white relative z-10">
+                <img src="./assets/images/svg/svg-6.svg" alt="">
+                <div class=" text-4xl font-2xl text-black pt-5">
+                   Tracking
+                </div>
+                <p class=" font-sm ">
+                   Track and save your medical history and health data 
+                </p>
+            </div>
+           </div>
+          </div>
+          <div class="absolute -right-9 top-[525px]">
+            <img src="./assets/images/dots section-2.png" alt="">
+          </div>
+          <button class="px-12 py-4 border-2 rounded-full border-blue text-blue font-2xl text-lg flex justify-center mx-auto mt-16">
+            Learn more
+          </button>
+        </div>
+        <div class="absolute top-0">
+            <img src="./assets/images/full img bg-blue section-2.png" alt="">
+        </div>
+        </section>
+
+        <!-- section-3  -->
+
+      <section class="items-center min-h-screen justify-center flex bg-lightOrange relative poppins relative font-mulish">
+         <div class="container w-4/5 mx-auto relative">
+            <div class="flex flex-wrap justify-between">
+                <div class="w-full lg:w-6/12">
+                <img class="full" src="./assets/images/two girls are chating  section-3.png" alt="">
+            </div>
+              <div class="w-full lg:w-4/12">
+                <div class=" font-2xl text-6xl">
+                    Leading healthcare providers
+                </div>
+                <div class=" py-6">
+                    <img src="./assets/images/svg/line.svg" alt="">
+                </div>
+                <p class="text-grey font-sm text-lg">
+                    Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone. To us, it’s not just work. We take pride 
+                    in the solutions we deliver
+                </p>
+                  <button class="px-12 py-4 border-2 rounded-full border-blue text-blue font-2xl text-lg mt-9">
+            Learn more
+          </button>
+            </div>
+            </div>
+            </div>
+            </section>
+  <!-- section-4  -->
+     <section class="items-center min-h-screen justify-center flex bg-lightOrange relative poppins relative font-mulish">
+         <div class="container w-4/5 mx-auto relative">
+            <div class="flex flex-wrap justify-between">
+                  <div class="w-full lg:w-4/12">
+                <div class=" font-2xl text-6xl">
+                   Download our mobile apps
+                </div>
+                <div class=" py-6">
+                    <img src="./assets/images/svg/line.svg" alt="">
+                </div>
+                <p class="text-grey font-sm text-lg">
+                Our dedicated patient engagement app and 
+                 <br>web portal allow you to access information instantaneously (no tedeous form, long calls, <br>
+                or administrative hassle) and securely
+                </p>
+                  <button class="px-12 py-4 border-2 rounded-full border-blue text-blue font-2xl text-lg mt-9 flex items-center">
+            Download
+            <span class="pl-4">
+                <img src="./assets/images/svg/arrow down.svg" alt="">
+            </span>
+          </button>
+            </div>
+                <div class="w-full lg:w-6/12">
+                <img class="full" src="./assets/images/girl chating for boy.png" alt="">
+            </div>
+            
+            </div>
+            </div>
+            </section>
+  </body>
+
+  <!-- nav js  -->
+
+    <script>
+      const nav = document.getElementById("mobile_navbar");
+      const toggleButton = document.getElementById("toggle_button");
+      const toggleButtonShowNav = document.querySelector(
+        "#toggle_button .show_nav"
+      );
+      const toggleButtonCloseNav = document.querySelector(
+        "#toggle_button .close_nav"
+      );
+      toggleButton.addEventListener("click", function () {
+        nav.classList.toggle("max-xl:translate-x-full");
+        toggleButtonShowNav.classList.toggle("opacity-0");
+        toggleButtonCloseNav.classList.toggle("opacity-0");
+        console.log("nav");
+      });
+  
+    </script>
+</html>
