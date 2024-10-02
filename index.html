@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!-- icon-link -->
+    <!-- icon-link -->
 
     <script
       type="module"
@@ -12,11 +12,32 @@
 
     <!-- font-family  -->
 
- <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- cdn link -->
 
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- slider link  -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <!-- root link  -->
 
@@ -25,9 +46,9 @@
         theme: {
           extend: {
             colors: {
-                blue:"#458FF6",
-                grey:"#8F8A99",
-                black:"#1F1534",
+              blue: "#458FF6",
+              grey: "#8F8A99",
+              black: "#1F1534",
             },
             fontWeight: {
               sm: "300",
@@ -48,9 +69,9 @@
               "6xl": "36px",
               "7xl": "48px",
             },
-            fontFamily:{
-                mulish:["Mulish", "sans-serif"],
-            }
+            fontFamily: {
+              mulish: ["Mulish", "sans-serif"],
+            },
           },
         },
       };
@@ -59,29 +80,37 @@
   <body>
     <!-- section-1  -->
 
-    <section class="items-center min-h-screen justify-center bg-lightOrange relative poppins relative font-mulish">
+    <section
+      class="items-center min-h-screen justify-center bg-lightOrange relative poppins relative font-mulish"
+    >
       <div class="container w-4/5 mx-auto">
         <nav class="w-full flex items-center justify-between py-3">
-            <div class="flex gap-3">
-          <div class="px-3 py-1.05 bg-blue rounded-full font-2xl text-5xl font-mulish text-white">
-            R
+          <div class="flex gap-3">
+            <div
+              class="px-3 py-1.05 bg-blue rounded-full font-2xl text-5xl font-mulish text-white"
+            >
+              R
+            </div>
+            <div class="font-2xl text-4xl">Radial-Health</div>
           </div>
-          <div class="font-2xl text-4xl">
-            Radial-Health
-          </div>
-        </div>
           <ul
             id="mobile_navbar"
             class="flex gap-7 items-center xl:relative fixed max-xl:w-full max-xl:h-full max-xl:bg-orange z-10 max-xl:translate-x-full max-xl:bg-blue left-0 top-0 max-xl:flex-col max-xl:justify-center max-xl:items-center transition ease-out duration-250 max-xl:min-h-screen"
           >
             <li>
-              <a href="#" class="font-md text-lg text-grey hover:text-black">Home</a>
+              <a href="#" class="font-md text-lg text-grey hover:text-black"
+                >Home</a
+              >
             </li>
             <li>
-              <a href="#" class="font-md text-lg text-grey hover:text-black">Find a doctor</a>
+              <a href="#" class="font-md text-lg text-grey hover:text-black"
+                >Find a doctor</a
+              >
             </li>
             <li>
-              <a href="#" class="font-md text-lg text-grey hover:text-black">Apps</a>
+              <a href="#" class="font-md text-lg text-grey hover:text-black"
+                >Apps</a
+              >
             </li>
             <li>
               <a href="#" class="font-md text-lg text-grey hover:text-black"
@@ -108,201 +137,567 @@
           </div>
         </nav>
         <div class="flex flex-wrap">
-            <div class="w-full lg:w-6/12">
-            <div class=" font-2xl text-7xl max-sm:text-6xl text-black max-w-[427px] pt-44 max-xl:pt-0">
-                Virtual healthcare 
-                 for you
+          <div class="w-full lg:w-6/12">
+            <div
+              class="font-2xl text-7xl max-sm:text-6xl text-black max-w-[427px] pt-44 max-xl:pt-0"
+            >
+              Virtual healthcare for you
             </div>
-            <div class=" font-sm text-2xl max-w-[493px] text-grey pt-6 pb-11">
-                Radial-Health provides progressive, and affordable 
-                healthcare, accessible on mobile and online 
-                for everyone
+            <div class="font-sm text-2xl max-w-[493px] text-grey pt-6 pb-11">
+              Radial-Health provides progressive, and affordable healthcare,
+              accessible on mobile and online for everyone
             </div>
-            <button class="px-10 py-3 bg-blue rounded-full text-white font-2xl text-lg">
-                Consult today
+            <button
+              class="px-10 py-3 bg-blue rounded-full text-white font-2xl text-lg"
+            >
+              Consult today
             </button>
-            </div>
-            <div class="w-full lg:w-6/12">
-                <img src="./assets/images/two boy are chating.png" alt="">
-            </div>
+          </div>
+          <div class="w-full lg:w-6/12">
+            <img src="./assets/images/two boy are chating.png" alt="" />
+          </div>
         </div>
-    </div>
-    <div class="absolute top-20">
-        <img src="./assets/images/dots section-1.png" alt="">
-    </div>
-        </section>
+      </div>
+      <div class="absolute top-20">
+        <img src="./assets/images/dots section-1.png" alt="" />
+      </div>
+    </section>
 
-     <!-- section-2 -->
+    <!-- section-2 -->
 
-          <section class="items-center min-h-screen justify-center bg-lightOrange relative poppins relative font-mulish">
-         <div class="container w-4/5 mx-auto relative">
-          <div class="font-2xl text-6xl flex justify-center">
-            Our services
+    <section
+      class="items-center min-h-screen justify-center bg-lightOrange relative poppins relative font-mulish"
+    >
+      <div class="container w-4/5 mx-auto relative">
+        <div class="font-2xl text-6xl flex justify-center">Our services</div>
+        <div class="flex justify-center pt-6  relative z-10">
+          <img src="./assets/images/svg/line.svg" alt="" />
+        </div>
+        <p
+          class="font-sm text-lg pt-9 max-w-[952px] text-center flex justify-center mx-auto relative z-10"
+        >
+          We provide to you the best choiches for you. Adjust it to your health
+          needs and make sure your undergo treatment with our highly qualified
+          doctors you can consult with us which type of service is suitable for
+          your health
+        </p>
+        <div class="flex flex-wrap">
+          <div class="w-full sm:w-6/12 lg:w-4/12">
+            <div
+              class="max-w-[350px] pt-12 pb-11 pl-10 pr-11 shadow-lg rounded-[20px] mt-20 max-xl:mt-9 bg-white relative z-10"
+            >
+              <img src="./assets/images/svg/svg-1.svg" alt="" />
+              <div class="text-4xl font-2xl text-black pt-5">Search doctor</div>
+              <p class="font-sm">
+                Choose your doctor from thousands of specialist, general, and
+                trusted hospitals
+              </p>
+            </div>
           </div>
-          <div class=" flex justify-center pt-6">
-            <img src="./assets/images/svg/line.svg" alt="">
+          <div class="w-full sm:w-6/12 lg:w-4/12">
+            <div
+              class="max-w-[350px] pt-12 pb-12 pl-10 pr-11 shadow-lg rounded-[20px] mt-20 max-xl:mt-9 bg-white relative z-10"
+            >
+              <img src="./assets/images/svg/svg-2.svg" alt="" />
+              <div class="text-4xl font-2xl text-black pt-5">
+                Online pharmacy
+              </div>
+              <p class="font-sm">
+                Buy your medicines with our mobile application with a simple
+                delivery system
+              </p>
+            </div>
           </div>
-          <p class=" font-sm text-lg pt-9 max-w-[952px] text-center flex justify-center mx-auto">
-            We provide to you the best choiches for you. Adjust it to your health needs and make sure your undergo treatment with our highly qualified doctors you can consult with us which type of service is suitable for your health
-          </p> 
+          <div class="w-full sm:w-6/12 lg:w-4/12">
+            <div
+              class="max-w-[350px] pt-12 pb-11 pl-10 pr-11 shadow-lg rounded-[20px] mt-20 max-xl:mt-9 bg-white relative z-10"
+            >
+              <img src="./assets/images/svg/svg-3.svg" alt="" />
+              <div class="text-4xl font-2xl text-black pt-5">Consultation</div>
+              <p class="font-sm">
+                Free consultation with our trusted doctors and get the best
+                recomendations
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-wrap">
+          <div class="w-full sm:w-6/12 lg:w-4/12">
+            <div
+              class="max-w-[350px] pt-12 pb-11 pl-10 pr-11 shadow-lg rounded-[20px] mt-9 bg-white relative z-10"
+            >
+              <img src="./assets/images/svg/svg-4.svg" alt="" />
+              <div class="text-4xl font-2xl text-black pt-5">Details info</div>
+              <p class="font-sm">
+                Free consultation with our trusted doctors and get the best
+                recomendations
+              </p>
+            </div>
+          </div>
+          <div class="w-full sm:w-6/12 lg:w-4/12">
+            <div
+              class="max-w-[350px] pt-12 pb-16 pl-10 pr-11 shadow-lg rounded-[20px] mt-9 bg-white relative z-10"
+            >
+              <img src="./assets/images/svg/svg-5.svg" alt="" />
+              <div class="text-4xl font-2xl text-black pt-5">
+                Emergency care
+              </div>
+              <p class="font-sm">
+                You can get 24/7 urgent care for yourself or your children and
+                your lovely family
+              </p>
+            </div>
+          </div>
+          <div class="w-full sm:w-6/12 lg:w-4/12">
+            <div
+              class="max-w-[350px] pt-12 pb-16 pl-10 pr-11 shadow-lg rounded-[20px] mt-9 bg-white relative z-10"
+            >
+              <img src="./assets/images/svg/svg-6.svg" alt="" />
+              <div class="text-4xl font-2xl text-black pt-5">Tracking</div>
+              <p class="font-sm">
+                Track and save your medical history and health data
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="absolute -right-9 top-[525px]">
+          <img src="./assets/images/dots section-2.png" alt="" />
+        </div>
+        <button
+          class="px-12 py-4 border-2 rounded-full border-blue text-blue font-2xl text-lg flex justify-center mx-auto mt-16 pb-4 mb-10"
+        >
+          Learn more
+        </button>
+      </div>
+      <div class="absolute top-0">
+        <img src="./assets/images/full img bg-blue section-2.png" alt="" />
+      </div>
+    </section>
+
+    <!-- section-3  -->
+
+    <section
+      class="items-center min-h-screen justify-center flex bg-lightOrange relative poppins relative font-mulish"
+    >
+      <div class="container w-4/5 mx-auto relative">
+        <div class="flex flex-wrap justify-between">
+          <div class="w-full lg:w-6/12">
+            <img
+              class="full"
+              src="./assets/images/two girls are chating  section-3.png"
+              alt=""
+            />
+          </div>
+          <div class="w-full lg:w-4/12">
+            <div class="font-2xl text-6xl">Leading healthcare providers</div>
+            <div class="py-6">
+              <img src="./assets/images/svg/line.svg" alt="" />
+            </div>
+            <p class="text-grey font-sm text-lg">
+              Trafalgar provides progressive, and affordable healthcare,
+              accessible on mobile and online for everyone. To us, it’s not just
+              work. We take pride in the solutions we deliver
+            </p>
+            <button
+              class="px-12 py-4 border-2 rounded-full border-blue text-blue font-2xl text-lg mt-9 mb-5"
+            >
+              Learn more
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section-4  -->
+
+    <section
+      class="items-center min-h-screen justify-center flex relative font-mulish"
+    >
+      <div class="container w-4/5 mx-auto relative">
+        <div class="flex flex-wrap justify-between">
+          <div class="w-full lg:w-4/12">
+            <div class="font-2xl text-6xl">Download our mobile apps</div>
+            <div class="py-6">
+              <img src="./assets/images/svg/line.svg" alt="" />
+            </div>
+            <p class="text-grey font-sm text-lg">
+              Our dedicated patient engagement app and
+              <br />web portal allow you to access information instantaneously
+              (no tedeous form, long calls, <br />
+              or administrative hassle) and securely
+            </p>
+            <button
+              class="px-12 py-4 border-2 rounded-full border-blue text-blue font-2xl text-lg mt-9 flex items-center"
+            >
+              Download
+              <span class="pl-4">
+                <img src="./assets/images/svg/arrow down.svg" alt="" />
+              </span>
+            </button>
+          </div>
+          <div class="w-full lg:w-6/12">
+            <img
+              class="full mt-10"
+              src="./assets/images/girl chating for boy.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section-5 slider  -->
+
+    <section class="items-center justify-center mulish">
+      <div class="container w-4/5 mx-auto relative bg-blue rounded-3xl relative">
+        <div class="show-one mt-10">
+          <div class="card">
+            <div class="flex flex-col">
+              <div
+                class="font-2xl text-6xl flex justify-center text-white pt-16 pb-6 max-sm:text-center"
+              >
+                What our customer are saying
+              </div>
+              <div class="flex justify-center">
+                <img src="./assets/images/svg/line-2.svg" alt="" />
+              </div>
+            </div>
+            <div class="flex items-center justify-center max-lg:flex-col">
+              <div class="image pr-7 pt-14 pb-16 max-lg:pb-4">
+                <img src="./assets/images/slider in man image.png" alt="" />
+              </div>
+              <div class="font-2xl text-3xl text-white">
+                Edward Newgate
+                <p class="font-md text-lg text-white pt-2">Founder Circle</p>
+              </div>
+              <div
+                class="max-w-[390px] text-white font-md text-xl ml-28 max-lg:ml-0 max-lg:pt-4 pt-16 pb-20"
+              >
+                “Our dedicated patient engagement app and web portal allow you
+                to access information instantaneously (no tedeous form, long
+                calls, or administrative hassle) and securely”
+              </div>
+            </div>
+            <div class="absolute -right-10 -top-3">
+              <img src="./assets/images/slider dots.png" alt="">
+            </div>
+          </div>
+         <div class="card">
+            <div class="flex flex-col">
+              <div
+                class="font-2xl text-6xl flex justify-center text-white pt-16 pb-6 max-sm:text-center"
+              >
+                What our customer are saying
+              </div>
+              <div class="flex justify-center">
+                <img src="./assets/images/svg/line-2.svg" alt="" />
+              </div>
+            </div>
+            <div class="flex items-center justify-center max-lg:flex-col">
+              <div class="image pr-7 pt-14 pb-16 max-lg:pb-4">
+                <img src="./assets/images/slider in man image.png" alt="" />
+              </div>
+              <div class="font-2xl text-3xl text-white">
+                Edward Newgate
+                <p class="font-md text-lg text-white pt-2">Founder Circle</p>
+              </div>
+              <div
+                class="max-w-[390px] text-white font-md text-xl ml-28 max-lg:ml-0 max-lg:pt-4 pt-16 pb-20"
+              >
+                “Our dedicated patient engagement app and web portal allow you
+                to access information instantaneously (no tedeous form, long
+                calls, or administrative hassle) and securely”
+              </div>
+            </div>
+            <div class="absolute -right-10 -top-3">
+              <img src="./assets/images/slider dots.png" alt="">
+            </div>
+          </div>
+            <div class="card">
+            <div class="flex flex-col">
+              <div
+                class="font-2xl text-6xl flex justify-center text-white pt-16 pb-6 max-sm:text-center"
+              >
+                What our customer are saying
+              </div>
+              <div class="flex justify-center">
+                <img src="./assets/images/svg/line-2.svg" alt="" />
+              </div>
+            </div>
+            <div class="flex items-center justify-center max-lg:flex-col">
+              <div class="image pr-7 pt-14 pb-16 max-lg:pb-4">
+                <img src="./assets/images/slider in man image.png" alt="" />
+              </div>
+              <div class="font-2xl text-3xl text-white">
+                Edward Newgate
+                <p class="font-md text-lg text-white pt-2">Founder Circle</p>
+              </div>
+              <div
+                class="max-w-[390px] text-white font-md text-xl ml-28 max-lg:ml-0 max-lg:pt-4 pt-16 pb-20"
+              >
+                “Our dedicated patient engagement app and web portal allow you
+                to access information instantaneously (no tedeous form, long
+                calls, or administrative hassle) and securely”
+              </div>
+            </div>
+            <div class="absolute -right-10 -top-3">
+              <img src="./assets/images/slider dots.png" alt="">
+            </div>
+          </div>
+         <div class="card">
+            <div class="flex flex-col">
+              <div
+                class="font-2xl text-6xl flex justify-center text-white pt-16 pb-6 max-sm:text-center"
+              >
+                What our customer are saying
+              </div>
+              <div class="flex justify-center">
+                <img src="./assets/images/svg/line-2.svg" alt="" />
+              </div>
+            </div>
+            <div class="flex items-center justify-center max-lg:flex-col">
+              <div class="image pr-7 pt-14 pb-16 max-lg:pb-4">
+                <img src="./assets/images/slider in man image.png" alt="" />
+              </div>
+              <div class="font-2xl text-3xl text-white">
+                Edward Newgate
+                <p class="font-md text-lg text-white pt-2">Founder Circle</p>
+              </div>
+              <div
+                class="max-w-[390px] text-white font-md text-xl ml-28 max-lg:ml-0 max-lg:pt-4 pt-16 pb-20"
+              >
+                “Our dedicated patient engagement app and web portal allow you
+                to access information instantaneously (no tedeous form, long
+                calls, or administrative hassle) and securely”
+              </div>
+            </div>
+            <div class="absolute -right-10 -top-3">
+              <img src="./assets/images/slider dots.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="d-flex items-center max-md:hidden">
+          <button class="circle p-[15px] rounded-full absolute left-[35%]  transition-all duration-400 circle-4 prev -bottom-22"
+          >
+           <svg width="32" height="20" viewBox="0 0 32 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.4">
+<path class="change-svg" d="M27.6914 8.76265L6.64553 8.76265L11.2693 4.13893C11.907 3.50117 11.907 2.54454 11.2693 1.90678C10.6315 1.26903 9.67487 1.26903 9.03711 1.90678L1.70293 9.24097C1.06517 9.87872 1.06517 10.8354 1.70293 11.4731L9.03711 18.8073C9.67487 19.445 10.6315 19.445 11.2693 18.8073C11.907 18.1695 11.907 17.2129 11.2693 16.5752L6.64553 11.9514L27.6914 11.9514C28.4886 11.9514 29.2858 11.3137 29.2858 10.357C29.2858 9.40041 28.4886 8.76265 27.6914 8.76265Z" fill="#B5D2FB"/>
+</g>
+          </svg>
+            <style>
+              .circle:hover .change-svg {
+                fill:blue;
+              }
+              .slick-dots li button:before{
+                content: unset;
+              }
+               .slick-dots li{
+                  background: #CEE1FB;
+                border-radius: 30px;
+                height: 12px;
+                width: 12px;
+                position: relative;
+                bottom:-40px;
+               }
+               .slick-dots li.slick-active {
+               background: #5B9BF3;
+              }
+              
+            </style>
+          </button>
+          <button class="circle p-[15px] rounded-full absolute  right-[35%] transition-all duration-400 me-3 circle-3 next -bottom-22"
+          >
+       <svg width="32" height="20" viewBox="0 0 32 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+       <g opacity="0.4">
+<path class="change-svg" d="M3.73726 11.2373L24.7832 11.2373L20.1595 15.8611C19.5217 16.4988 19.5217 17.4555 20.1595 18.0932C20.7972 18.731 21.7538 18.731 22.3916 18.0932L29.7258 10.759C30.3635 10.1213 30.3635 9.16464 29.7258 8.52689L22.3916 1.1927C21.7538 0.55495 20.7972 0.55495 20.1595 1.1927C19.5217 1.83046 19.5217 2.78709 20.1595 3.42485L24.7832 8.04857L3.73726 8.04857C2.94007 8.04857 2.14287 8.68633 2.14287 9.64296C2.14287 10.5996 2.94007 11.2373 3.73726 11.2373Z" fill="#B5D2FB"/>
+</svg>
+</g>
+
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- section-6  -->
+    <section class="items-center min-h-screen flex-col justify-center flex font-mulish">
+         <div class="font-2xl text-6xl flex justify-center pt-20">Check out our latest article</div>
+        <div class="flex justify-center pt-6  relative z-10">
+          <img src="./assets/images/svg/line.svg" alt="" />
+        </div>
+      <div class="w-4/5 mx-auto ">
           <div class="flex flex-wrap">
-            <div class="w-full sm:w-6/12 lg:w-4/12">
-            <div class="max-w-[350px] pt-12 pb-11 pl-10 pr-11 shadow-lg rounded-[20px] mt-20 max-xl:mt-9 bg-white relative z-10">
-                <img src="./assets/images/svg/svg-1.svg" alt="">
-                <div class=" text-4xl font-2xl text-black pt-5">
-                    Search doctor
-                </div>
-                <p class=" font-sm ">
-                    Choose your doctor from thousands of specialist, general, and trusted hospitals
-                </p>
+          <div class="w-full lg:w-6/12 xl:w-4/12">
+            <div
+              class="max-w-[350px] shadow-lg rounded-[20px] mt-9 bg-white relative z-10"
+            >
+              <img class="rounded-t-[20px] h-[235px] w-full" src="./assets/images/section-6 img-1.png" alt="" />
+              <div class="pt-6 pb-11 pl-10 pr-11">
+              <div class="text-2xl font-2xl text-black pt-5">Disease detection, check 
+              up in the laboratory</div>
+              <p class="font-sm text-md pt-4">
+             In this case, the role of the health laboratory is very important to do
+             a disease detection...
+              </p>
+              <div class="flex items-center gap-3 pt-4">
+               <span class="text-blue"> Read more </span>
+                <img class="pt-1"  src="./assets/images/svg/slider right arow.svg" alt="">
+              </div>
             </div>
-           </div>
-               <div class="w-full sm:w-6/12 lg:w-4/12">
-            <div class="max-w-[350px] pt-12 pb-12 pl-10 pr-11 shadow-lg rounded-[20px] mt-20 max-xl:mt-9 bg-white relative z-10">
-                <img src="./assets/images/svg/svg-2.svg" alt="">
-                <div class=" text-4xl font-2xl text-black pt-5">
-                    Online pharmacy
-                </div>
-                <p class=" font-sm">
-                   Buy  your medicines with our mobile application with a simple delivery system
-                </p>
             </div>
-           </div>
-               <div class="w-full sm:w-6/12 lg:w-4/12">
-            <div class="max-w-[350px] pt-12 pb-11 pl-10 pr-11 shadow-lg rounded-[20px] mt-20 max-xl:mt-9 bg-white relative z-10">
-                <img src="./assets/images/svg/svg-3.svg" alt="">
-                <div class=" text-4xl font-2xl text-black pt-5">
-                  Consultation
-                </div>
-                <p class=" font-sm ">
-                   Free consultation with our trusted doctors and get the best recomendations
-                </p>
-            </div>
-           </div>
           </div>
-           <div class="flex flex-wrap">
-            <div class="w-full sm:w-6/12 lg:w-4/12">
-            <div class="max-w-[350px] pt-12 pb-11 pl-10 pr-11 shadow-lg rounded-[20px] mt-9 bg-white relative z-10">
-                <img src="./assets/images/svg/svg-4.svg" alt="">
-                <div class=" text-4xl font-2xl text-black pt-5">
-                    Details info
-                </div>
-                <p class=" font-sm ">
-                  Free consultation with our trusted doctors and get the best recomendations
-                </p>
+          <div class="w-full lg:w-6/12 xl:w-4/12">
+           <div
+              class="max-w-[350px] shadow-lg rounded-[20px] mt-9 bg-white relative z-10"
+            >
+              <img class="rounded-t-[20px]" src="./assets/images/section-6 img-2.png" alt="" />
+              <div class="pt-6 pb-11 pl-10 pr-11">
+              <div class="text-2xl font-2xl text-black pt-5">Herbal medicines that are 
+safe for consumption</div>
+              <p class="font-sm text-md pt-4">
+            Herbal medicine is very widely used at this time because of its very good for your health...
+              </p>
+              <div class="flex items-center gap-3 pt-4">
+               <span class="text-blue"> Read more </span>
+                <img class="pt-1"  src="./assets/images/svg/slider right arow.svg" alt="">
+              </div>
             </div>
-           </div>
-               <div class="w-full sm:w-6/12 lg:w-4/12">
-            <div class="max-w-[350px] pt-12 pb-16 pl-10 pr-11 shadow-lg rounded-[20px] mt-9 bg-white relative z-10">
-                <img src="./assets/images/svg/svg-5.svg" alt="">
-                <div class=" text-4xl font-2xl text-black pt-5">
-                    Emergency care
-                </div>
-                <p class=" font-sm ">
-                  You can get 24/7 urgent care for yourself or your children and your
-lovely family
-                </p>
             </div>
-           </div>
-               <div class="w-full sm:w-6/12 lg:w-4/12">
-            <div class="max-w-[350px] pt-12 pb-16 pl-10 pr-11 shadow-lg rounded-[20px] mt-9 bg-white relative z-10">
-                <img src="./assets/images/svg/svg-6.svg" alt="">
-                <div class=" text-4xl font-2xl text-black pt-5">
-                   Tracking
-                </div>
-                <p class=" font-sm ">
-                   Track and save your medical history and health data 
-                </p>
-            </div>
-           </div>
           </div>
-          <div class="absolute -right-9 top-[525px]">
-            <img src="./assets/images/dots section-2.png" alt="">
+          <div class="w-full lg:w-6/12 xl:w-4/12">
+           <div
+              class="max-w-[350px] shadow-lg rounded-[20px] mt-9 bg-white relative z-10"
+            >
+              <img class="rounded-t-[20px]" src="./assets/images/section-6 img-3.png" alt="" />
+              <div class="pt-6 pb-11 pl-10 pr-11">
+              <div class="text-2xl font-2xl text-black pt-5">Natural care for healthy 
+facial skin</div>
+              <p class="font-sm text-md pt-4">
+             A healthy lifestyle should start from now and also for your skin health.
+There are some...
+              </p>
+              <div class="flex items-center gap-3 pt-4">
+               <span class="text-blue"> Read more </span>
+                <img class="pt-1"  src="./assets/images/svg/slider right arow.svg" alt="">
+              </div>
+            </div>
+            </div>
           </div>
-          <button class="px-12 py-4 border-2 rounded-full border-blue text-blue font-2xl text-lg flex justify-center mx-auto mt-16">
-            Learn more
-          </button>
         </div>
-        <div class="absolute top-0">
-            <img src="./assets/images/full img bg-blue section-2.png" alt="">
+          <button
+              class="px-12 py-4 border-2 justify-center flex mx-auto rounded-full border-blue text-blue font-2xl text-lg mt-9 mb-5"
+            >
+              View all
+            </button>
+      </div>
+    </section>
+
+    <!-- footer  -->
+
+        <footer
+      class="items-center justify-center flex relative bg-blue  font-mulish">
+      <div class="container w-4/5 mx-auton relative">
+        <div class="flex flex-wrap justify-between pb-20 max-2xl:pb-3">
+          <div class="w-full md:w-6/12 lg:w-4/12">
+            <div class="flex gap-3 pt-[118px] max-2xl:pt-10">
+            <div
+              class="px-3 py-1.05 bg-white rounded-full font-2xl text-5xl font-mulish"
+            >
+              R
+            </div>
+            <div class="font-2xl text-4xl text-white">Radial-Health</div>
+          </div>
+          <div class="font-sm text-lg pt-5 text-white">
+            Radial-Health provides progressive, and affordable healthcare, accessible on mobile and online 
+          </div>
+          <p class="font-sm text-lg text-white">for everyone</p>
+          <p class="font-sm text-md text-white">
+           ©Radial-Health PVT LTD 2021 . All rights reserved
+          </p>
+          </div>
+            <div class="w-full md:w-6/12 lg:w-2/12">
+              <ul class="font-sm text-lg text-white">
+            <li class="font-2xl text-2xl text-white pt-[118px] max-2xl:pt-10">Company</li>
+            <li class="pt-5">About</li>
+            <li>Testimonials</li>
+            <li>Find a doctor</li>
+            <li>Apps</li>
+            </ul>
+          </div>
+             <div class="w-full md:w-6/12 lg:w-2/12">
+              <ul class="font-sm text-lg text-white">
+            <li class="font-2xl text-2xl text-white pt-[118px] max-2xl:pt-10">Region</li>
+            <li class="pt-5">India</li>
+            <li>Singapore</li>
+            <li>Hongkong</li>
+            <li>Canada</li>
+            </ul>
+          </div>
+             <div class="w-full md:w-6/12 lg:w-2/12">
+              <ul class="font-sm text-lg text-white">
+            <li class="font-2xl text-2xl text-white pt-[118px] max-2xl:pt-10">Help</li>
+            <li class="pt-5">Help center</li>
+            <li>Contact support</li>
+            <li>Instructions</li>
+            <li>How it works</li>
+            </ul>
+          </div>
         </div>
-        </section>
-
-        <!-- section-3  -->
-
-      <section class="items-center min-h-screen justify-center flex bg-lightOrange relative poppins relative font-mulish">
-         <div class="container w-4/5 mx-auto relative">
-            <div class="flex flex-wrap justify-between">
-                <div class="w-full lg:w-6/12">
-                <img class="full" src="./assets/images/two girls are chating  section-3.png" alt="">
-            </div>
-              <div class="w-full lg:w-4/12">
-                <div class=" font-2xl text-6xl">
-                    Leading healthcare providers
-                </div>
-                <div class=" py-6">
-                    <img src="./assets/images/svg/line.svg" alt="">
-                </div>
-                <p class="text-grey font-sm text-lg">
-                    Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone. To us, it’s not just work. We take pride 
-                    in the solutions we deliver
-                </p>
-                  <button class="px-12 py-4 border-2 rounded-full border-blue text-blue font-2xl text-lg mt-9">
-            Learn more
-          </button>
-            </div>
-            </div>
-            </div>
-            </section>
-  <!-- section-4  -->
-     <section class="items-center min-h-screen justify-center flex bg-lightOrange relative poppins relative font-mulish">
-         <div class="container w-4/5 mx-auto relative">
-            <div class="flex flex-wrap justify-between">
-                  <div class="w-full lg:w-4/12">
-                <div class=" font-2xl text-6xl">
-                   Download our mobile apps
-                </div>
-                <div class=" py-6">
-                    <img src="./assets/images/svg/line.svg" alt="">
-                </div>
-                <p class="text-grey font-sm text-lg">
-                Our dedicated patient engagement app and 
-                 <br>web portal allow you to access information instantaneously (no tedeous form, long calls, <br>
-                or administrative hassle) and securely
-                </p>
-                  <button class="px-12 py-4 border-2 rounded-full border-blue text-blue font-2xl text-lg mt-9 flex items-center">
-            Download
-            <span class="pl-4">
-                <img src="./assets/images/svg/arrow down.svg" alt="">
-            </span>
-          </button>
-            </div>
-                <div class="w-full lg:w-6/12">
-                <img class="full" src="./assets/images/girl chating for boy.png" alt="">
-            </div>
-            
-            </div>
-            </div>
-            </section>
+        <div class="absolute -top-16 right-0 -z-10">
+          <img src="./assets/images/footer dots img.png" alt="">
+        </div>
+         <div class="absolute -left-[14%] bottom-0 z-10">
+          <img src="./assets/images/footer dots img.png" alt="">
+        </div>
+        </div>
+        </footer>
   </body>
 
   <!-- nav js  -->
 
-    <script>
-      const nav = document.getElementById("mobile_navbar");
-      const toggleButton = document.getElementById("toggle_button");
-      const toggleButtonShowNav = document.querySelector(
-        "#toggle_button .show_nav"
-      );
-      const toggleButtonCloseNav = document.querySelector(
-        "#toggle_button .close_nav"
-      );
-      toggleButton.addEventListener("click", function () {
-        nav.classList.toggle("max-xl:translate-x-full");
-        toggleButtonShowNav.classList.toggle("opacity-0");
-        toggleButtonCloseNav.classList.toggle("opacity-0");
-        console.log("nav");
-      });
-  
-    </script>
+  <script>
+    const nav = document.getElementById("mobile_navbar");
+    const toggleButton = document.getElementById("toggle_button");
+    const toggleButtonShowNav = document.querySelector(
+      "#toggle_button .show_nav"
+    );
+    const toggleButtonCloseNav = document.querySelector(
+      "#toggle_button .close_nav"
+    );
+    toggleButton.addEventListener("click", function () {
+      nav.classList.toggle("max-xl:translate-x-full");
+      toggleButtonShowNav.classList.toggle("opacity-0");
+      toggleButtonCloseNav.classList.toggle("opacity-0");
+      console.log("nav");
+    });
+  </script>
+
+  <!-- slider link  -->
+
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+
+  <script>
+    $(".show-one").slick({
+      dots: true,
+      arrow: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 3000,
+      prevArrow: $(".prev"),
+      nextArrow: $(".next"),
+    });
+  </script>
 </html>
+
